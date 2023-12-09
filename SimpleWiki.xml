@@ -1,0 +1,50 @@
+<!--This is a comment-->
+<!--The <xml> tag starts an xml document, and the </xml> tag ends it-->
+<xml>
+  <!--The contents between each set of <page>,</page> tags describes a page-->
+  <!--Thus, this is one page in the wiki:-->
+  <page>
+    <!--Each page has a title (unique for each page in that wiki):-->
+    <!--(You can assume that titles do not have links in them)-->
+    <title>Example page</title>
+    <!--And a numerical ID (unique for each page in that wiki):-->
+    <id>200</id>
+    <!--It also contains text content:-->
+    <text>
+      <!--This page only contains text:-->
+      This is an example of some content that a page may contain.
+
+      Pages may contain spaces and
+
+      ==formatting==
+
+      {{with special characters}}
+
+      But the regular expression we give you will extract only the words/numbers
+      in the document.
+    </text>
+  </page>
+  
+  <!--This is another page in the wiki:-->
+  <page>
+    <title>Page with links</title>
+    <id>30</id>
+    <text>
+    <!--This page links to other pages-->
+    <!--Links are surrounded by [[ and ]]-->
+    <!--A link that only has text between the [[ and ]] links to the page
+    with that text as a title (the below link's text is "Example page" and its
+    destination is the page Example page):-->
+    [[Example page]]
+    <!--(DESCRIPTION FIXED 11/29)
+    A link may also have text that is different than the page title. In this
+    case, the format is [[destination|link text]]. The below link's
+    text is "(See this page)" and its destination is the page Example page:-->
+    [[Example page|(See this page)]]
+    <!--Link text is considered as part of the page content, since it displays
+    on the page. The regular expression we give you will help detect and split
+    links up into their requisite parts, but you should still understand
+    how links are formatted in order to write and test your code. -->
+    </text>
+  </page>
+</xml>

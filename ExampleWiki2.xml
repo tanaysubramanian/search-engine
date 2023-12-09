@@ -1,0 +1,51 @@
+<xml>
+    <page>
+        <title>Learn More</title>
+
+        <id>31</id>
+
+        <text>
+        Learn more about our cause, [[Donors]], and history of service to the underserved.
+
+        Please reach out to us if you are interested to [[Join Us]].
+        </text>
+    </page>
+
+    <page>
+        <title>Donors</title>
+
+        <id>17</id>
+
+        <text>
+        [[Learn More]] about how our donors have helped support our [[Cause]] for many decades.
+
+        Some of our donors include other non-profits in the Northeast region.
+        </text>
+    </page>
+
+    <page>
+        <title>Cause</title>
+
+        <id>21</id>
+
+        <text>
+        The biggest question we get is why? We focus on helping the underserved by 
+        volunteering at soup kitchens and providing them with food and clothing.
+
+        None of our successes would have been possible without our generous [[Donors]].
+
+        Please [[Join Us]].
+        </text>
+    </page>
+
+    <page>
+        <title>Join Us</title>
+
+        <id>72</id>
+
+        <text>
+        Giving back is easier than ever before. Simply type your email in the form below
+        and we will get you up and running!
+        </text>
+    </page>
+</xml>

@@ -1,0 +1,21 @@
+<xml>
+    <page>
+        <title>About Us</title>
+
+        <id>1</id>
+
+        <text>
+        We use AI to [[Discover]] drugs used in hospitals.
+        </text>
+    </page>
+
+    <page>
+        <title>Discover</title>
+
+        <id>2</id>
+
+        <text>
+        Discover how we use AI to improve health.
+        </text>
+    </page>
+</xml>
